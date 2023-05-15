@@ -9,7 +9,7 @@ private:
 public:
   sortingAlgo(vector<int> a) { arrElem = a; }
 
-  // bubble sort overloaded function
+  // bubble sort overloaded 
   void sort(char c) {
     for (int i = arrElem.size() - 1; i >= 1; i--) {
       for (int j = 0; j < i; j++) {
@@ -19,7 +19,7 @@ public:
     }
   }
 
-// insertion sort overloaded function
+// insertion sort overloaded 
   void sort() {
     for (int i = 0; i < arrElem.size() - 1; i++) {
       int j = i;
@@ -30,7 +30,7 @@ public:
     }
   }
 
- // selection sort overloaded function
+ // selection sort overloaded 
   void sort(bool b) {
     int minIndex;
     for (int i = 0; i < arrElem.size() - 1; i++) {
@@ -44,7 +44,7 @@ public:
     }
   }
 
-// quick sort overloaded function
+// quick sort overloaded 
   void sort(int left, int right) {
     if (left < right) {
       // Selecting the pivot element
